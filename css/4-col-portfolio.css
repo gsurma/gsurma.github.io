@@ -21,3 +21,16 @@ body {
 .pagination {
   margin-bottom: 30px;
 }
+
+.navbar {
+    background-color: #191D32;
+}
+
+
+.footer-bottom{
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+	color: #191D32;
+	background: #191D32;
+}
