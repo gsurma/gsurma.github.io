@@ -23,15 +23,14 @@ body {
 }
 
 .navbar {
-    background-color: #011F4B;
+    background-color: #081D2E;
 }
 
 .footer-bottom{
 	width: 100%;
 	padding: 25px 0;
 	text-align: center;
-	color: #011F4B;
-	background: #011F4B;
+	background: #081D2E;
 }
 
 .btn-primary {
