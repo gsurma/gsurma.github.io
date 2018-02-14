@@ -26,6 +26,10 @@ body {
     background-color: #081D2E;
 }
 
+.card-body {
+    height: 240pt;
+}
+
 .footer-bottom{
 	width: 100%;
 	padding: 25px 0;
@@ -37,4 +41,12 @@ body {
     background: #007bb6;
     color: #ffffff;
     border-color: #007bb6;
+}
+
+.appstore_button {
+  position: absolute;
+  bottom: 15pt;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
