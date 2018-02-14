@@ -26,11 +26,16 @@ body {
     background-color: #191D32;
 }
 
-
 .footer-bottom{
 	width: 100%;
 	padding: 25px 0;
 	text-align: center;
 	color: #191D32;
 	background: #191D32;
+}
+
+.btn-primary {
+    background: #007bb6;
+    color: #ffffff;
+    border-color: #007bb6;
 }
