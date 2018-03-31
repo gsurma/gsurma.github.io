@@ -37,10 +37,19 @@ body {
     background-color:#0C1D2E;
 }
 
-.btn-primary {
+.btn-linkedin {
     background: #007bb6;
-    color: #ffffff;
     border-color: #007bb6;
+}
+
+.btn-github {
+    background: #23282D;
+    border-color: #23282D;
+}
+
+.btn-email {
+    background: #1DA1F2;
+    border-color: #1DA1F2;
 }
 
 .link_button {
