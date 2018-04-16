@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - 4 Col Portfolio (https://startbootstrap.com/template-overviews/4-col-portfolio)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
- */
 
 body {
   padding-top: 54px;
@@ -60,14 +55,14 @@ body {
   margin: auto;
 }
 
-.portfolioFilter a {
+.projectFilter a {
   font-size: x-large;
   margin-right: 10px;
   color:#081D2E;
   text-decoration:none;
 }
 
-.portfolioFilter a.current {
+.projectFilter a.current {
     font-weight: bold;
 }
 
