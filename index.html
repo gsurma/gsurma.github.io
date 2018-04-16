@@ -21,14 +21,18 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<meta name="description" content="Grzegorz Greg Surma - Portfolio, iOS apps and games, AI applications.">
-		<meta name="keywords" content="ios, app, game, apple, ai, native, freelance, software, dev, developer, iphone, ipad, programming, computers, swift, objective-c, python">
+		<meta name="description" content="Grzegorz Greg Surma - Portfolio; iOS, macOS, Apps, Games, AI, Cryptography, Utilities">
+		<meta name="keywords" content="iOS, macOS, app, game, apple, ai, native, freelance, software, dev, developer, iphone, ipad, programming, computers, swift, objective-c, python, cryptography, artificial intelligence, computer, it, internet, engineering, development">
 		<meta name="author" content="Grzegorz Greg Surma">
 
 		<title>Greg Surma - Portfolio</title>
 
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/4-col-portfolio.css" rel="stylesheet">
+
+		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+		<script src="js/jquery.isotope.js" type="text/javascript"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	</head>
 
   	<body>
@@ -59,9 +63,26 @@
 		</h1>
 
 		<h2>Side projects</h2>
-		<div class="row">
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+		<br>
+
+		<div class="portfolioFilter">
+			<center>
+				<a href="#" data-filter="*" class="current">All</a>
+				<a href="#" data-filter=".games">Games</a>
+				<a href="#" data-filter=".apps">Apps</a>
+				<a href="#" data-filter=".ai">Artificial Intelligence</a>
+				<a href="#" data-filter=".cryptography">Cryptography</a>
+				<a href="#" data-filter=".utilities">Utilities</a>
+			</center>
+		</div>
+
+		<br>
+
+		<div class="row"><div class="portfolioContainer"></div></div>
+
+		<div class="portfolioContainer row">
+			<div class="utilities col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://github.com/gsurma/xcode_project_cleaner">
 						<img class="card-img-top" src="images/icons/xcode_project_cleaner_icon_web.png" alt="Xcode Project Cleaner">
@@ -85,7 +106,7 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/xcode_project_cleaner">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -93,7 +114,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="apps col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://github.com/gsurma/newstagram">
 						<img class="card-img-top" src="images/icons/newstagram_icon_web.png" alt="Newstagram">
@@ -118,7 +139,7 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/newstagram">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -126,7 +147,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="cryptography utilities col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://github.com/gsurma/prime_numbers_generator">
 						<img class="card-img-top" src="images/icons/primes_icon_web.png" alt="Prime Numbers Generator">
@@ -151,7 +172,7 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/prime_numbers_generator">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -159,7 +180,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="cryptography col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://github.com/gsurma/diffie_hellman_key_exchange">
 						<img class="card-img-top" src="images/icons/diffie_hellman_icon_web.png" alt="Diffie-Hellman Key Exchange">
@@ -184,7 +205,7 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/diffie_hellman_key_exchange">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -192,7 +213,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="apps utilities col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://www.dropbox.com/s/tk22vvtue272t3n/Screenshot%20Manager.app.zip?dl=0">
 						<img class="card-img-top" src="images/icons/screenshot_manager_icon_web.png" alt="Screenshot Manager">
@@ -216,15 +237,15 @@
 						<div class="link_button">
 							<a href="https://www.dropbox.com/s/tk22vvtue272t3n/Screenshot%20Manager.app.zip?dl=0">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/dropbox.png" alt="Download from dropbox" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/dropbox.png" alt="Download from dropbox" width="120" height="40">
 								</center>
 							</a>
 						</div>
-				 	</div>
+					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="games ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://itunes.apple.com/us/app/sliding-puzzle-board-game/id1355485199?ls=1&mt=8">
 						<img class="card-img-top" src="images/icons/sliding_puzzle_icon_web.png" alt="Sliding Puzzle">
@@ -248,15 +269,15 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/us/app/sliding-puzzle-board-game/id1355485199?ls=1&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
-				 	</div>
+					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="games ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://itunes.apple.com/us/app/triangle-strategy-game/id1339374094?ls=1&mt=8">
 						<img class="card-img-top" src="images/icons/triangle_icon_web.png" alt="Triangle">
@@ -281,20 +302,20 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/us/app/triangle-strategy-game/id1339374094?ls=1&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
-				 	</div>
+					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="games ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-			  		<a href="https://itunes.apple.com/us/app/hex-ai-board-game/id1326484730?ls=1&mt=8">
-				  		<img class="card-img-top" src="images/icons/hex_icon_web.png" alt="Hex">
+					<a href="https://itunes.apple.com/us/app/hex-ai-board-game/id1326484730?ls=1&mt=8">
+						<img class="card-img-top" src="images/icons/hex_icon_web.png" alt="Hex">
 					</a>
-				  	<div class="card-body">
+					<div class="card-body">
 						<h4 class="card-title">
 							<center>
 								<h4 class="card-title">Hex</h4>
@@ -314,15 +335,15 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/us/app/hex-ai-board-game/id1326484730?ls=1&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
-				 	</div>
+					</div>
 				</div>
-		  	</div>
+			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="utilities col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://github.com/gsurma/twitter_data_parser">
 						<img class="card-img-top" src="images/icons/twitter_data_parser_icon_web.png" alt="Twitter Data Parser">
@@ -346,7 +367,7 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/twitter_data_parser">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -354,12 +375,12 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="games ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-			  		<a href="https://itunes.apple.com/us/app/find-it-object-recognition/id1320024298?ls=1&mt=8">
-				  		<img class="card-img-top" src="images/icons/find_it_icon_web.png" alt="Snap it">
+					<a href="https://itunes.apple.com/us/app/find-it-object-recognition/id1320024298?ls=1&mt=8">
+						<img class="card-img-top" src="images/icons/find_it_icon_web.png" alt="Snap it">
 					</a>
-				  	<div class="card-body">
+					<div class="card-body">
 						<h4 class="card-title">
 							<center>
 								<h4 class="card-title">Snap it</h4>
@@ -381,18 +402,18 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/us/app/find-it-object-recognition/id1320024298?ls=1&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
-				 	</div>
+					</div>
 				</div>
-		  	</div>
+			</div>
 
-		  	<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="games ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://itunes.apple.com/us/app/2048-ai-solver/id1315421448?ls=1&mt=8">
-				  		<img class="card-img-top" src="images/icons/2048_ai_icon_web.png" alt="2048 AI">
+						<img class="card-img-top" src="images/icons/2048_ai_icon_web.png" alt="2048 AI">
 					</a>
 					<div class="card-body">
 						<h4 class="card-title">
@@ -416,15 +437,15 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/us/app/2048-ai-solver/id1315421448?ls=1&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
-				  	</div>
+					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="utilities col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
 					<a href="https://github.com/gsurma/rpi_lcd_system_monitoring">
 						<img class="card-img-top" src="images/icons/rpi_lcd_system_monitoring_icon_web.png" alt="Raspberry Pi LCD System Monitoring">
@@ -449,7 +470,7 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/rpi_lcd_system_monitoring">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -457,12 +478,12 @@
 				</div>
 			</div>
 
-	  		<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="games col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-		  			<a href="https://itunes.apple.com/pl/app/magic-cube-3d-mind-game/id1312631441?mt=8">
-			  			<img class="card-img-top" src="images/icons/magic_cube_icon_web.png" alt="Magic Cube">
+					<a href="https://itunes.apple.com/pl/app/magic-cube-3d-mind-game/id1312631441?mt=8">
+						<img class="card-img-top" src="images/icons/magic_cube_icon_web.png" alt="Magic Cube">
 					</a>
-		  			<div class="card-body">
+					<div class="card-body">
 						<h4 class="card-title">
 							<center>
 								<h4 class="card-title">Magic Cube</h4>
@@ -483,20 +504,20 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/pl/app/magic-cube-3d-mind-game/id1312631441?mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
-		  			</div>
+					</div>
 				</div>
-	  		</div>
+			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="apps col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-		  			<a href="https://github.com/gsurma/github_feed">
-			  			<img class="card-img-top" src="images/icons/github_feed_icon_web.png" alt="GitHub Feed">
+					<a href="https://github.com/gsurma/github_feed">
+						<img class="card-img-top" src="images/icons/github_feed_icon_web.png" alt="GitHub Feed">
 					</a>
-		  			<div class="card-body">
+					<div class="card-body">
 						<h4 class="card-title">
 							<center>
 								<h4 class="card-title">GitHub Feed</h4>
@@ -518,20 +539,20 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/github_feed">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
-		  			</div>
+					</div>
 				</div>
-	  		</div>
+			</div>
 
-			<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="cryptography col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-		  			<a href="https://github.com/gsurma/steganographer">
-			  			<img class="card-img-top" src="images/icons/steganographer_icon_web.png" alt="Steganographer">
+					<a href="https://github.com/gsurma/steganographer">
+						<img class="card-img-top" src="images/icons/steganographer_icon_web.png" alt="Steganographer">
 					</a>
-		  			<div class="card-body">
+					<div class="card-body">
 						<h4 class="card-title">
 							<center>
 								<h4 class="card-title">Steganographer</h4>
@@ -552,20 +573,20 @@
 						<div class="link_button">
 							<a href="https://github.com/gsurma/steganographer">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 								</center>
 							</a>
 						</div>
-		  			</div>
+					</div>
 				</div>
-	  		</div>
+			</div>
 
-	  		<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+			<div class="games ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-		  			<a href="https://itunes.apple.com/pl/app/beat-me-xo/id1086445391?mt=8">
-			  			<img class="card-img-top" src="images/icons/beat_me_icon_web.png" alt="Beat me">
+					<a href="https://itunes.apple.com/pl/app/beat-me-xo/id1086445391?mt=8">
+						<img class="card-img-top" src="images/icons/beat_me_icon_web.png" alt="Beat me">
 					</a>
-		  			<div class="card-body">
+					<div class="card-body">
 						<h4 class="card-title">
 							<center>
 								<h4 class="card-title">Beat me</h4>
@@ -586,14 +607,13 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/pl/app/beat-me-xo/id1086445391?mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
-		  			</div>
+					</div>
 				</div>
-	  		</div>
-
+			</div>
 		</div>
 
 		<h2>Main projects</h2>
@@ -621,7 +641,7 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/pl/app/wp-pilot-telewizja-online/id919545883?l=pl&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -654,7 +674,7 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/pl/app/poczta-o2/id1033546634?l=pl&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -683,7 +703,7 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/pl/app/wp24-newsy-pogoda-sport/id412702892?l=pl&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -712,7 +732,7 @@
 						<div class="link_button">
 							<a href="https://itunes.apple.com/pl/app/wp-sportowefakty/id528516748?l=pl&mt=8">
 								<center>
-										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
+									<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/appstore.png" alt="Download on appstore" width="120" height="40">
 								</center>
 							</a>
 						</div>
@@ -720,14 +740,39 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 
-		<div class="footer-bottom">
-			<p class="m-0 text-center text-white"><a>© </a><script>document.write(new Date().getFullYear())</script></p>
-		</div>
+	<script type="text/javascript">
+		$(window).load(function(){
+			var $container = $('.portfolioContainer');
+			$container.isotope({
+				filter: '*',
+				animationOptions: {
+					duration: 750,
+					easing: 'linear',
+					queue: false
+				}
+			});
 
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+			$('.portfolioFilter a').click(function(){
+				$('.portfolioFilter .current').removeClass('current');
+				$(this).addClass('current');
+
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+					filter: selector,
+					animationOptions: {
+						duration: 750,
+						easing: 'linear',
+						queue: false
+					}
+				 });
+				 return false;
+			});
+		});
+	</script>
+	<div class="footer-bottom">
+		<p class="m-0 text-center text-white"><a>© </a><script>document.write(new Date().getFullYear())</script></p>
+	</div>
 	</body>
 </html>
