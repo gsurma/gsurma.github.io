@@ -12,7 +12,6 @@ $(window).load(function(){
     $('.projectFilter a').click(function(){
         $('.projectFilter .current').removeClass('current');
         $(this).addClass('current');
-
         var selector = $(this).attr('filter');
         $container.isotope({
             filter: selector,
