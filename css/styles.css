@@ -57,7 +57,8 @@ body {
 
 .projectFilter a {
   font-size: x-large;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
   color:#081D2E;
   text-decoration:none;
 }
