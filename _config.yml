@@ -1,3 +1,11 @@
+title: Greg Surma - Portfolio
+email: grzegorz.surma@icloud.com
+description: Grzegorz Greg Surma - Portfolio; iOS, macOS, Apps, Games, AI, Cryptography, Utilities
+url: "https://gsurma.github.io"
+twitter_username: gsurma
+github_username:  gsurma
+google_analytics: UA-110543961-1
+
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
