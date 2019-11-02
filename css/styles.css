@@ -24,7 +24,9 @@ body {
 .card-body {
     height: 240pt;
 }
-
+.footer-margin {
+  height: 240pt;
+}
 .footer-bottom{
 	width: 100%;
 	padding: 25px 0;
