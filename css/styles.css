@@ -156,3 +156,11 @@ body {
     transform: scale(1.055);
     /* color: #4B0082 */
 }
+.avatar {
+  width: 95px;
+  max-width: 100%;
+  overflow: hidden;
+  /* @include border-radius(100px); */
+  margin: 0 auto;
+  display: block;
+}
