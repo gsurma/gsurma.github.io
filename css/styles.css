@@ -159,9 +159,21 @@ body {
 .avatar {
   width: 95px;
   max-width: 100%;
+  /* white-space: nowrap; */
   overflow: hidden;
+  /* overflow-y: hidden; */
   /* @include border-radius(100px); */
   margin: 0 auto;
   display: block;
-  /* vertical-align:middle; */
+  display: inline-block;
+}
+
+.name{
+    display: inline-block;
+}
+
+.parent{
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
