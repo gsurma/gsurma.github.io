@@ -1,0 +1,94 @@
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.navbar {
+    background-color: #081D2E;
+}
+
+.card-body {
+    height: 240pt;
+}
+.footer-margin {
+  height: 240pt;
+}
+.footer-bottom{
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+    background-color:#0C1D2E;
+}
+
+.btn-linkedin {
+    background: #007bb6;
+    border-color: #007bb6;
+}
+
+.btn-github {
+    background: #23282D;
+    border-color: #23282D;
+}
+
+.btn-email {
+    background: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.link_button {
+  position: absolute;
+  bottom: 15pt;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.projectFilter a {
+  font-size: x-large;
+  margin-right: 5px;
+  margin-left: 5px;
+  color:#081D2E;
+  text-decoration:none;
+}
+
+.projectFilter a.current {
+    font-weight: bold;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
